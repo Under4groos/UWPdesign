@@ -53,17 +53,25 @@ namespace WpfApp
             this.Loaded += (o, e) =>
             {
                 //new WindowBlureffect(this, WindowBlureffect.AccentState.ACCENT_ENABLE_ACRYLICBLURBEHIND);
+                try
+                {
+                    new WindowBlureffect(this, WindowBlureffect.AccentState.ACCENT_ENABLE_BLURBEHIND);
 
-                new WindowBlureffect(this, WindowBlureffect.AccentState.ACCENT_ENABLE_BLURBEHIND);
 
+                    var preference = DWM_WINDOW_CORNER_PREFERENCE.DWMWCP_ROUND;
 
-                var preference = DWM_WINDOW_CORNER_PREFERENCE.DWMWCP_ROUND;
+                    DwmSetWindowAttribute(new System.Windows.Interop.WindowInteropHelper(this).Handle,
+                         DWMWINDOWATTRIBUTE.DWMWA_WINDOW_CORNER_PREFERENCE,
+                          ref preference,
+                          sizeof(uint)
+                        );
+                }
+                catch (Exception ee)
+                {
 
-                DwmSetWindowAttribute(new System.Windows.Interop.WindowInteropHelper(this).Handle,
-                     DWMWINDOWATTRIBUTE.DWMWA_WINDOW_CORNER_PREFERENCE,
-                      ref preference,
-                      sizeof(uint)
-                    );
+                    MessageBox.Show(ee.Message);
+                }
+               
             };
         }
     }
