@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "design", "design\design.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowMove", "WindowMove\WindowMove.csproj", "{357AD7E9-876C-4A84-BA70-8D432E9344AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp", "WpfApp\WpfApp.csproj", "{79902B70-2449-48FB-A7AD-2F7B68019BCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,26 @@ Global
 		{357AD7E9-876C-4A84-BA70-8D432E9344AF}.Release|x64.Build.0 = Release|Any CPU
 		{357AD7E9-876C-4A84-BA70-8D432E9344AF}.Release|x86.ActiveCfg = Release|Any CPU
 		{357AD7E9-876C-4A84-BA70-8D432E9344AF}.Release|x86.Build.0 = Release|Any CPU
+		{79902B70-2449-48FB-A7AD-2F7B68019BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79902B70-2449-48FB-A7AD-2F7B68019BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79902B70-2449-48FB-A7AD-2F7B68019BCA}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{79902B70-2449-48FB-A7AD-2F7B68019BCA}.Debug|ARM.Build.0 = Debug|Any CPU
+		{79902B70-2449-48FB-A7AD-2F7B68019BCA}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{79902B70-2449-48FB-A7AD-2F7B68019BCA}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{79902B70-2449-48FB-A7AD-2F7B68019BCA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{79902B70-2449-48FB-A7AD-2F7B68019BCA}.Debug|x64.Build.0 = Debug|Any CPU
+		{79902B70-2449-48FB-A7AD-2F7B68019BCA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{79902B70-2449-48FB-A7AD-2F7B68019BCA}.Debug|x86.Build.0 = Debug|Any CPU
+		{79902B70-2449-48FB-A7AD-2F7B68019BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79902B70-2449-48FB-A7AD-2F7B68019BCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79902B70-2449-48FB-A7AD-2F7B68019BCA}.Release|ARM.ActiveCfg = Release|Any CPU
+		{79902B70-2449-48FB-A7AD-2F7B68019BCA}.Release|ARM.Build.0 = Release|Any CPU
+		{79902B70-2449-48FB-A7AD-2F7B68019BCA}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{79902B70-2449-48FB-A7AD-2F7B68019BCA}.Release|ARM64.Build.0 = Release|Any CPU
+		{79902B70-2449-48FB-A7AD-2F7B68019BCA}.Release|x64.ActiveCfg = Release|Any CPU
+		{79902B70-2449-48FB-A7AD-2F7B68019BCA}.Release|x64.Build.0 = Release|Any CPU
+		{79902B70-2449-48FB-A7AD-2F7B68019BCA}.Release|x86.ActiveCfg = Release|Any CPU
+		{79902B70-2449-48FB-A7AD-2F7B68019BCA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
